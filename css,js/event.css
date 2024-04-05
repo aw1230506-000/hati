@@ -19,16 +19,21 @@ h1{
 .yatai_1{
     border-radius:100px;
     margin-top: 50px;
+    margin-left: 70px;
 }
 .big_box{
-    text-align: center;
+    text-align: left;
+    width: 450px;
+    margin: auto;
 }
 .small_box{
 text-align: center;
 }
+
 .box_2{
     font-size: x-large;
     margin-top: 60px;
+    margin-left: 70px;
 }
 .box_3{
     font-size: x-large;
@@ -64,21 +69,27 @@ text-align: center;
     text-decoration: underline 3px chocolate;
 }
 #footer{
-    padding-top: 500px;
+    padding-top: 650px;
 }
 @media screen and (max-width: 800px) {
-    
+    .big_box{
+        text-align: left;
+        width: 300px;
+        margin: auto;
+    }
     .box_2{
-        text-align: center;
-        margin-left: 50px;
-        margin-right: 50px;
         font-size: 20px;
+        margin-left: 0px;
     }
     .box_3{
         font-size: 20px;
+        margin-left: 0px;
     }
     .hiroba{
        margin-left: -5px;
+    }
+    .yatai_1{
+       margin-left: -20px;
     }
     .day{
         margin-bottom: 10px;
@@ -91,6 +102,6 @@ text-align: center;
         margin: 50px 0px;
     }
     #footer{
-        margin-top: 400px;
+        margin-top: 650px;
     }
 }
